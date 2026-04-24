@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>WeatherFit — Privacy Policy</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue: #2563EB;
+    --blue-dark: #1e3a8a;
+    --blue-light: #eff6ff;
+    --gold: #F59E0B;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --bg: #f8fafc;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    font-size: 16px;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+    padding: 60px 24px 48px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 220px; height: 220px;
+    background: rgba(253,230,138,0.15);
+    border-radius: 50%;
+  }
+
+  header::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; left: -40px;
+    width: 160px; height: 160px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 50%;
+  }
+
+  .logo-mark {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .logo-icon {
+    width: 44px; height: 44px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+  }
+
+  .logo-icon svg { width: 26px; height: 26px; }
+
+  .logo-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 26px;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+
+  .logo-name span { color: var(--gold); }
+
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(28px, 5vw, 42px);
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 12px;
+    position: relative;
+  }
+
+  header p {
+    color: rgba(255,255,255,0.65);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    position: relative;
+  }
+
+  .container {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .toc {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin: 40px 0 48px;
+  }
+
+  .toc-title {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+
+  .toc ol {
+    padding-left: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 24px;
+  }
+
+  .toc li { font-size: 14px; }
+
+  .toc a {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .toc a:hover { text-decoration: underline; }
+
+  section {
+    margin-bottom: 48px;
+    scroll-margin-top: 24px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-num {
+    width: 32px; height: 32px;
+    background: var(--blue);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text);
+  }
+
+  p { margin-bottom: 14px; color: #334155; }
+  p:last-child { margin-bottom: 0; }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 16px 0;
+  }
+
+  .card-title {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+
+  ul { padding-left: 0; list-style: none; }
+
+  ul li {
+    padding: 7px 0 7px 20px;
+    position: relative;
+    color: #334155;
+    font-size: 15px;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  ul li:last-child { border-bottom: none; }
+
+  ul li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 50%;
+    transform: translateY(-50%);
+    width: 6px; height: 6px;
+    background: var(--blue);
+    border-radius: 50%;
+  }
+
+  .highlight {
+    background: var(--blue-light);
+    border-left: 3px solid var(--blue);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 15px;
+    color: var(--blue-dark);
+  }
+
+  .warning {
+    background: #fffbeb;
+    border-left: 3px solid var(--gold);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 15px;
+    color: #78350f;
+  }
+
+  .third-party-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .tp-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+  }
+
+  .tp-name {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+
+  .tp-role {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 10px;
+  }
+
+  .tp-link {
+    font-size: 12px;
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .tp-link:hover { text-decoration: underline; }
+
+  .contact-box {
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .contact-box h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+
+  .contact-box p { color: rgba(255,255,255,0.7); margin-bottom: 16px; font-size: 14px; }
+
+  .contact-email {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    transition: background 0.2s;
+  }
+
+  .contact-email:hover { background: rgba(255,255,255,0.25); }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 13px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 480px) {
+    .toc ol { grid-template-columns: 1fr; }
+    .third-party-grid { grid-template-columns: 1fr; }
+    header { padding: 40px 20px 36px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark">
+    <div class="logo-icon">
+      <svg viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="18" cy="8" r="6" fill="#FDE68A"/>
+        <ellipse cx="11" cy="17" rx="9" ry="5.5" fill="white"/>
+        <circle cx="7" cy="15.5" r="4.5" fill="white"/>
+        <circle cx="13" cy="14" r="5.5" fill="white"/>
+        <path d="M11 12.5 Q11 11 12 10.8 Q13.2 10.6 13.3 11.5 Q13.4 12.2 12.6 12.6" stroke="#2563EB" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+        <polyline points="11,12.6 8.5,15 13.5,15" stroke="#2563EB" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <line x1="8.2" y1="15" x2="13.8" y2="15" stroke="#2563EB" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <span class="logo-name">Weather<span>Fit</span></span>
+  </div>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: April 25, 2026</p>
+</header>
+
+<div class="container">
+
+  <nav class="toc">
+    <div class="toc-title">Contents</div>
+    <ol>
+      <li><a href="#s1">Information We Collect</a></li>
+      <li><a href="#s2">Location Data</a></li>
+      <li><a href="#s3">Notifications</a></li>
+      <li><a href="#s4">Advertising</a></li>
+      <li><a href="#s5">Third-Party Services</a></li>
+      <li><a href="#s6">Children's Privacy</a></li>
+      <li><a href="#s7">Your Rights</a></li>
+      <li><a href="#s8">Contact Us</a></li>
+    </ol>
+  </nav>
+
+  <p>WeatherFit ("we", "our", or "the app") is committed to protecting your privacy. This policy explains what data we collect, how we use it, and your rights as a user. By using WeatherFit, you agree to the practices described below.</p>
+
+  <!-- 1 -->
+  <section id="s1">
+    <div class="section-header">
+      <div class="section-num">1</div>
+      <h2>Information We Collect</h2>
+    </div>
+    <p>WeatherFit is designed with privacy in mind. Most data never leaves your device. The following information may be stored locally or processed during app use:</p>
+    <div class="card">
+      <div class="card-title">Stored on your device only</div>
+      <ul>
+        <li>City or location information (for weather lookup)</li>
+        <li>Notification preferences (enabled/disabled, time)</li>
+        <li>Language preference</li>
+        <li>Gender and clothing style selections</li>
+      </ul>
+    </div>
+    <div class="highlight">
+      None of the above personal preferences are transmitted to our servers. They exist solely on your device to personalize your experience.
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="s2">
+    <div class="section-header">
+      <div class="section-num">2</div>
+      <h2>Location Data</h2>
+    </div>
+    <p>WeatherFit requests access to your device's location in order to provide accurate, real-time weather information for your area.</p>
+    <ul>
+      <li>Location is only accessed when you open the app or enable automatic updates</li>
+      <li>We do not store your location history on any server</li>
+      <li>Your coordinates or city name are sent to <strong>Open-Meteo API</strong> solely to retrieve weather data</li>
+      <li>You may manually enter a city instead of granting location permission</li>
+    </ul>
+    <div class="warning">
+      Location data is shared with Open-Meteo solely for weather retrieval purposes. Open-Meteo is a free and open-source weather API and does not use your location for advertising or profiling. See their policy at <a href="https://open-meteo.com/en/terms" style="color:#92400e;">open-meteo.com/en/terms</a>.
+    </div>
+  </section>
+
+  <!-- 3 -->
+  <section id="s3">
+    <div class="section-header">
+      <div class="section-num">3</div>
+      <h2>Notifications</h2>
+    </div>
+    <p>WeatherFit may send you daily push notifications with outfit suggestions based on the weather forecast for your location.</p>
+    <ul>
+      <li>Notifications are opt-in — you will be asked for permission before they are enabled</li>
+      <li>You can disable notifications at any time from the app's Settings screen</li>
+      <li>You can also manage notification permissions via your device's system settings</li>
+      <li>We do not send promotional or marketing notifications</li>
+    </ul>
+  </section>
+
+  <!-- 4 -->
+  <section id="s4">
+    <div class="section-header">
+      <div class="section-num">4</div>
+      <h2>Advertising</h2>
+    </div>
+    <p>WeatherFit uses <strong>Google AdMob</strong> to display advertisements within the app. AdMob may collect and process certain data to serve personalized or non-personalized ads.</p>
+    <div class="warning">
+      AdMob operates under Google's own privacy policy. We do not control what data AdMob collects. Please review Google's privacy policy at <a href="https://policies.google.com/privacy" style="color:#92400e;">policies.google.com/privacy</a>.
+    </div>
+    <p>Data that AdMob may collect includes device identifiers, IP address, and interaction data with ads. You can opt out of personalized advertising through your device settings:</p>
+    <ul>
+      <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</li>
+      <li><strong>iOS:</strong> Settings → Privacy → Tracking → disable for WeatherFit</li>
+    </ul>
+  </section>
+
+  <!-- 5 -->
+  <section id="s5">
+    <div class="section-header">
+      <div class="section-num">5</div>
+      <h2>Third-Party Services</h2>
+    </div>
+    <p>WeatherFit integrates the following third-party services. Each operates under its own privacy policy:</p>
+    <div class="third-party-grid">
+      <div class="tp-card">
+        <div class="tp-name">Open-Meteo</div>
+        <div class="tp-role">Weather data provider</div>
+        <a class="tp-link" href="https://open-meteo.com/en/terms" target="_blank">View Privacy Policy →</a>
+      </div>
+      <div class="tp-card">
+        <div class="tp-name">Google AdMob</div>
+        <div class="tp-role">In-app advertising</div>
+        <a class="tp-link" href="https://policies.google.com/privacy" target="_blank">View Privacy Policy →</a>
+      </div>
+      <div class="tp-card">
+        <div class="tp-name">Google Play Services</div>
+        <div class="tp-role">Platform services (Android)</div>
+        <a class="tp-link" href="https://policies.google.com/privacy" target="_blank">View Privacy Policy →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 -->
+  <section id="s6">
+    <div class="section-header">
+      <div class="section-num">6</div>
+      <h2>Children's Privacy</h2>
+    </div>
+    <p>WeatherFit is not directed at children under the age of 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information through our app, please contact us immediately and we will take steps to remove such information.</p>
+  </section>
+
+  <!-- 7 -->
+  <section id="s7">
+    <div class="section-header">
+      <div class="section-num">7</div>
+      <h2>Your Rights</h2>
+    </div>
+    <p>Since WeatherFit stores preferences only on your device, you have full control over your data:</p>
+    <ul>
+      <li>Clear all app data via your device's app settings at any time</li>
+      <li>Revoke location permission from system settings</li>
+      <li>Disable notifications from system settings or in-app settings</li>
+      <li>Opt out of personalized ads through your device's advertising settings</li>
+    </ul>
+    <p>We reserve the right to update this Privacy Policy. If significant changes are made, we will notify you via an in-app notice. Continued use of the app constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <!-- 8 -->
+  <section id="s8">
+    <div class="section-header">
+      <div class="section-num">8</div>
+      <h2>Contact Us</h2>
+    </div>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please reach out to us directly.</p>
+  </section>
+
+  <div class="contact-box">
+    <h3>Get in Touch</h3>
+    <p>Questions about privacy or data? We're here to help.</p>
+    <a class="contact-email" href="mailto:oguzhankaymakci001@gmail.com">oguzhankaymakci001@gmail.com</a>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2026 WeatherFit. All rights reserved.
+</footer>
+
+</body>
+</html>
