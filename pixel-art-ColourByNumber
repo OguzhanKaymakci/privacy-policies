@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Pixel Art - Colour By Number</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #222;
+      max-width: 900px;
+    }
+    h1, h2 {
+      color: #111;
+    }
+    a {
+      color: #0a66c2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .box {
+      background: #f5f5f5;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+
+  <div class="box">
+    <p><strong>App Name:</strong> Pixel Art - Colour By Number</p>
+    <p><strong>Developer:</strong> OKGAME (progamesdev2015)</p>
+    <p><strong>Contact Email:</strong> <a href="mailto:Oguzhankaymakci001@gmail.com">Oguzhankaymakci001@gmail.com</a></p>
+  </div>
+
+  <p>
+    This Privacy Policy explains how Pixel Art - Colour By Number ("the App") collects, uses, and shares information
+    when you use our mobile application available on Google Play.
+  </p>
+
+  <h2>1. Information We Collect</h2>
+  <p>
+    We do not require users to create an account, and we do not directly collect personal information such as name,
+    phone number, or address.
+  </p>
+
+  <p>
+    However, the App may collect certain information automatically through third-party services (such as advertising providers).
+  </p>
+
+  <h2>2. Advertising (Google AdMob)</h2>
+  <p>
+    The App uses Google AdMob to display advertisements. AdMob may collect and process certain information to show personalized
+    or non-personalized ads, including but not limited to:
+  </p>
+
+  <ul>
+    <li>Device information (device model, operating system version)</li>
+    <li>Advertising ID (Google Advertising ID)</li>
+    <li>Approximate location (based on IP address)</li>
+    <li>App usage data (ad interactions, impressions, clicks)</li>
+  </ul>
+
+  <p>
+    This data is collected by Google and used according to Google's Privacy Policy.
+  </p>
+
+  <p>
+    Google Privacy Policy:
+    <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a>
+  </p>
+
+  <p>
+    Google Ad Technology:
+    <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a>
+  </p>
+
+  <h2>3. App Permissions</h2>
+  <p>
+    The App does not require special permissions by default.
+    However, if the App provides a feature that allows you to choose or save images from/to your device gallery,
+    Android may request access to your device storage or media files.
+  </p>
+
+  <p>
+    Any images selected or used in the App remain on your device and are not uploaded or shared by us.
+  </p>
+
+  <h2>4. In-App Purchases</h2>
+  <p>
+    The App does not contain in-app purchases.
+  </p>
+
+  <h2>5. Data Storage</h2>
+  <p>
+    We do not store personal user data on our servers.
+    Game progress and settings (if any) are stored locally on your device.
+  </p>
+
+  <h2>6. Children’s Privacy</h2>
+  <p>
+    The App is intended for a general audience. We do not knowingly collect personal information from children under the age of 13.
+    If you believe that a child has provided personal data, please contact us and we will take appropriate action.
+  </p>
+
+  <h2>7. Third-Party Services</h2>
+  <p>
+    The App uses third-party services that may collect information used to identify you.
+    These services include:
+  </p>
+
+  <ul>
+    <li>Google AdMob (Advertising)</li>
+  </ul>
+
+  <h2>8. Sharing of Information</h2>
+  <p>
+    We do not sell, trade, or rent users' personal information.
+    However, information may be shared with third-party providers such as Google AdMob for advertising and analytics purposes.
+  </p>
+
+  <h2>9. Security</h2>
+  <p>
+    We value your trust. While we do not store personal data on our servers, we strive to use commercially acceptable means
+    of protecting information processed by third-party providers.
+  </p>
+
+  <h2>10. Your Choices</h2>
+  <p>
+    You can opt out of personalized advertising by adjusting your device settings:
+  </p>
+
+  <ul>
+    <li>Google Settings → Ads → Reset Advertising ID</li>
+    <li>Google Settings → Ads → Opt out of Ads Personalization</li>
+  </ul>
+
+  <h2>11. Changes to This Privacy Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. Any changes will be posted on this page.
+    You are advised to review this Privacy Policy periodically for any changes.
+  </p>
+
+  <h2>12. Contact Us</h2>
+  <p>
+    If you have any questions or suggestions about this Privacy Policy, you can contact us at:
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <a href="mailto:Oguzhankaymakci001@gmail.com">Oguzhankaymakci001@gmail.com</a>
+  </p>
+
+  <hr />
+
+  <p><strong>Last Updated:</strong> 2026-05-04</p>
+
+</body>
+</html>
